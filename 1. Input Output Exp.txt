@@ -1,0 +1,18 @@
+﻿using System;
+
+namespace lab1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int i = 5, j = 10;
+            Console.WriteLine("{0} is the 1st number.\n{1} is the 2nd number.", i, j);
+
+            int a = Int32.Parse(Console.ReadLine());
+            int b = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine("The sum of {0} & {1} is: {2}",a,b, a+b);
+        }
+    }
+}

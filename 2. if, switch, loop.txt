@@ -1,0 +1,147 @@
+﻿using System;
+using System.Linq;
+
+namespace secondLAB
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /////////////////////
+            /// Using If else ///
+            /////////////////////
+            
+            /*Console.WriteLine("What do you want to be?\n1. Shinobi\n2. Sorcerer\n3. Hashiral\n");
+            string ans = Console.ReadLine();
+
+            Console.WriteLine("Your Answer: {0}", ans);
+            ans = ans.ToUpper().Trim();
+            if (ans == "SHINOBI")
+            {
+                Console.WriteLine("You belongs to Namito Shipudden.");
+            }
+            else if (ans == "SORCERER")
+            {
+                Console.WriteLine("You belongs to Jujutsu Kaisen.");
+            }
+            else if (ans == "HASHIRAL")
+            {
+                Console.WriteLine("You belongs to Slayer WOrld.");
+            }*/
+
+
+            /////////////////////////
+            /// Using Switch Case ///
+            /////////////////////////
+            
+            /*Console.WriteLine("What do you want to be?\n1. Shinobi\n2. Sorcerer\n3. Hashiral\n");
+            string ans = Console.ReadLine();
+
+            Console.WriteLine("Your Answer: {0}", ans);
+            ans = ans.ToUpper().Trim();
+
+            switch(ans)
+            {
+                case "SHINOBI":
+                    Console.WriteLine("You belongs to Namito Shipudden.");
+                    break;
+
+                case "SORCERER":
+                    Console.WriteLine("You belongs to Jujutsu Kaisen.");
+                    break;
+
+                case "HASHIRAL":
+                    Console.WriteLine("You belongs to Slayer World.");
+                    break;
+            }*/
+
+            ////////////////////////////////////////////
+            /// 1.Find Area & Perimeter of Rectangle ///
+            ////////////////////////////////////////////
+            
+            /*Console.Write("Enter \'x\': ");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter \'y\': ");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("The area of the Rectangle is {0} and Perimeter is {1}", x * y, 2 * (x + y));*/
+
+            
+
+            /////////////////
+            /// 2.Compare ///
+            /////////////////
+
+            /*Console.Write("Enter \'p\': ");
+            int p = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter \'q\': ");
+            int q = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Comparizon...");
+            if (p == q)
+            {
+                Console.WriteLine("{0} = {1}", p, q);
+            }
+            else if(x > y)
+            {
+                Console.WriteLine("{0} > {1}\n{0} != {1}\n{0} >= {1}", p, q);
+            }
+            else
+            {
+                Console.WriteLine("{0} < {1}\n{0} != {1}\n{0} <= {1}", p, q);
+            }*/
+            
+
+            ////////////////////////
+            /// 3.Reverse String ///
+            ////////////////////////
+            
+            /*Console.Write("Enter a string: ");
+            string str = Console.ReadLine();
+            char[] arr = str.ToArray();
+            Array.Reverse(arr);
+            Console.WriteLine("Reversed String: " + new string(arr));
+            //Another way
+            //Console.WriteLine(str.Reverse().ToArray());*/
+            
+
+
+            ///////////////////////////////////////////////////////
+            /// Check if 'A' and 'B' are Inbetween 0 & 1 or not ///
+            ///////////////////////////////////////////////////////
+            
+            /*Console.Write("Enter \'a\': ");
+            double a = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter \'b\': ");
+            double b = Convert.ToDouble(Console.ReadLine());
+
+            if (a >= 0 && a <= 1 && b >= 0 && b <= 1)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+            }*/
+            
+
+
+            //////////////////////////
+            /// Run until typed -1 ///
+            //////////////////////////
+            
+            /*for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+            int j = 0;
+            while(j != -1)
+            {
+                j = Int32.Parse(Console.ReadLine());
+            }*/
+        }
+    }
+}

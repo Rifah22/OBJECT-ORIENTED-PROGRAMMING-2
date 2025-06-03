@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MethodExp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int opt=0;
+            do
+            {
+                try
+                {
+                    Console.WriteLine("1. Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Exit");
+                    opt = Int32.Parse(Console.ReadLine());
+                    switch (opt)
+                    {
+                        case 1:
+                            Addition();
+                            break;
+                        case 2:
+                            Subtraction();
+                            break;
+                        case 3:
+                            Multiplication();
+                            break;
+                        case 4:
+                            Division();
+                            break;
+                        case 5:
+                            break;
+                        default:
+                            Console.WriteLine("Invalid Option");
+                            break;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Incorrect");
+                }
+
+            } while (opt != 5);
+        }
+
+        static void Addition()
+        {
+            int x = Int32.Parse(Console.ReadLine());
+            int y = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine(x + y);
+        }
+
+        static void Subtraction()
+        {
+            int x = Int32.Parse(Console.ReadLine());
+            int y = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine(x - y);
+        }
+
+        static void Multiplication()
+        {
+            int x = Int32.Parse(Console.ReadLine());
+            int y = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine(x * y);
+        }
+
+        static void Division()
+        {
+            int x = Int32.Parse(Console.ReadLine());
+            int y = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine((double)x / y);
+        }
+    }
+}
